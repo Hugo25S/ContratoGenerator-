@@ -5,7 +5,7 @@ Este repositorio contiene el código necesario para automatizar la generación d
 
 ## Importante: Seguridad de la Información
 **Por razones de seguridad, el documento Word generado no ha sido subido a este repositorio.**
-Solo se incluye el código fuente para la automatización. Si deseas generar el informe, debes proporcionar tu propia plantilla en formato `.docx` y el archivo de datos en `.xlsx`.
+Solo se incluye el código fuente para la automatización. Si deseas generar el informe, debes proporcionar tu propia plantilla en formato `.docx`, asegúrate de que tenga este nombre "Incremento_actividades" y que la carpeta donde estén los archivos tenga este nombre "INCREMENTO_ACTIVIDADES". Considera que la carpeta de salida debes crearla antes con el nombre de "output".
 
 ## Funcionamiento
 El script en Python carga un archivo Excel, extrae los datos y reemplaza las siguientes palabras clave en la plantilla de Word:
